@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.variable} antialiased`}
+        className={`${roboto.variable} antialiased container mx-auto flex-1 flex overflow-hidden`}
       >
         {children}
       </body>
