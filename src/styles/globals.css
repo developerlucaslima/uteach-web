@@ -55,8 +55,8 @@
   --popover-foreground: oklch(0.208 0.042 265.755);
   --primary: oklch(0.21 0.034 264.665);
   --primary-foreground: oklch(0.985 0.002 247.839);
-  --secondary: oklch(0.967 0.003 264.542);
-  --secondary-foreground: oklch(0.21 0.034 264.665);
+  --secondary: oklch(0.646 0.222 41.116);
+  --secondary-foreground: oklch(1 0 0);
   --muted: oklch(0.967 0.003 264.542);
   --muted-foreground: oklch(0.551 0.027 264.364);
   --accent: oklch(0.967 0.003 264.542);
@@ -87,5 +87,11 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .container-x {
+    @apply mx-3 sm:mx-10 md:mx-20;
   }
 }
