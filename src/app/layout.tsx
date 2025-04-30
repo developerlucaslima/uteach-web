@@ -1,30 +1,30 @@
-import "@/styles/globals.css";
+import '@/styles/globals.css'
 
-import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import type { Metadata } from 'next'
+import { Roboto } from 'next/font/google'
 
 const roboto = Roboto({
-  variable: "--font-roboto",
-  subsets: ["latin"],
-});
+  variable: '--font-roboto',
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
-  title: "UTeach",
-  description: "A modern platform to teach and learn effectively",
-};
+  title: 'UTeach',
+  description: 'A modern platform to teach and learn effectively',
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="en">
       <body
-        className={`${roboto.variable} antialiased container mx-auto flex-1 flex overflow-hidden`}
+        className={`${roboto.variable} container mx-auto overflow-hidden antialiased`}
       >
         {children}
       </body>
     </html>
-  );
+  )
 }
