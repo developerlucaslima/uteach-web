@@ -22,10 +22,8 @@ export const NavMobile = ({ navConfigProps }: NavMobileProps) => {
     <nav className="flex gap-1 lg:hidden">
       <Sheet>
         <SheetTrigger>
-          <Button variant="ghost" size="icon" aria-label="Menu">
-            <Menu className="size-6" />
-            <span className="sr-only">Toggle menu</span>
-          </Button>
+          <Menu className="size-6 cursor-pointer" />
+          <span className="sr-only">Toggle menu</span>
         </SheetTrigger>
         <SheetContent side="right" className="w-[240px] sm:w-[300px]">
           <SheetHeader>
