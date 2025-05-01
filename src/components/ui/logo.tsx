@@ -65,7 +65,7 @@ function Logo({ className, variant, asChild = false, ...props }: LogoProps) {
     <Comp className={cn(logoVariants({ variant, className }))} {...props}>
       <div className="relative pt-[4px]">
         <U />
-        <Ellipse color={ellipseColor} className="absolute top-0" />
+        <Ellipse color={ellipseColor} className="absolute -top-[2px]" />
       </div>
       <span className="text-3xl font-bold">teach</span>
     </Comp>
