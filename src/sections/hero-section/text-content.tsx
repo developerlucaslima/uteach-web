@@ -12,9 +12,10 @@ export const TextContent = () => (
     </h1>
 
     <p className="text-base leading-[140%] font-normal md:text-2xl md:leading-[160%]">
-      Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa
-      tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis
-      ultricies.
+      Amet nunc diam orci duis ut sit diam arcu, nec.
+      <br />
+      Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est
+      pellentesque turpis ultricies.
     </p>
 
     <div className="flex items-center gap-6">
