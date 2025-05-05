@@ -20,9 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${roboto.variable} container mx-auto overflow-hidden antialiased`}
-      >
+      <body className={`${roboto.variable} container mx-auto antialiased`}>
         {children}
       </body>
     </html>
